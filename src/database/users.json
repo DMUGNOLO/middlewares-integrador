@@ -4,5 +4,11 @@
   "email": "dmugnolo@gmail.com",
   "password": "$2a$10$a3r3qmNbDuDUDqFxtcWcY./zV5JqdbonUUuLCvlyC7c./JcCNQiVm",
   "avatar": "1609221964401-WhatsApp Image 2020-09-10 at 16.10.50.jpeg"
+ },
+ {
+  "id": 1,
+  "email": "pedro@pedro.com",
+  "password": "$2a$10$CbodPVgR10L6G7uv8pOuuuykRe.OTo5i6gkym.3b2B3FnXQ.ZV/Xm",
+  "avatar": "1609276595446-IMG_20200911_180656.jpg"
  }
 ]

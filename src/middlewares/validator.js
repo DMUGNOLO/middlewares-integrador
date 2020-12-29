@@ -1,4 +1,5 @@
 const { body } = require('express-validator');
+var bail = require('bail');
 const path = require('path');
 const bcrypt = require("bcryptjs")
 const getAllUsers = require('../helpers/getAllUsers');

@@ -44,11 +44,14 @@ module.exports = {
         if (req.body.remember){
             res.cookie('user', userToLogin.id, { maxAge: 1000 * 60 * 60 * 365 })
         }
+        console.log(req.session.userLogged)
+        console.log(req.cookies.user)
 
         return res.redirect('/');
     },
     showProfile: (req, res) => {
-        return res.render('user/profile');
+        const sessionInfo = req.session.userLogged;
+        return res.render('user/profile', { sessionInfo: sessionInfo });
     },
     logout: (req, res) => {
         res.clearCookie('user')
